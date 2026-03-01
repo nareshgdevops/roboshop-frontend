@@ -8,4 +8,4 @@ jobs:
   Build:
     uses: nareshgdevops/roboshop-github-actions/.github/workflows/CI-main.yml@main
     with:
-      appType: nodejs
+      appType: angular
