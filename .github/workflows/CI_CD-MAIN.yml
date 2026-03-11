@@ -10,5 +10,7 @@ jobs:
     with:
       appType: 'angular'
       appName: 'frontend'
+      aksName: 'aks-main-dev'
+      resourceGroup: 'ukwest-dev'
     secrets:
       VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
